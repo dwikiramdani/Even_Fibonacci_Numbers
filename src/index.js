@@ -16,7 +16,7 @@ function fibonacci(x) {
     temp = a + b;
     a = b;
     b = temp;
-    if (temp % 2 == 0) {
+    if (temp % 2 === 0) {
       obj[arr] = temp;
       arr = arr + 1;
     }
